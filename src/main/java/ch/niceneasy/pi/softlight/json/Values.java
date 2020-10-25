@@ -7,12 +7,15 @@ public class Values {
 
 	/** The red. */
 	private String red;
-	
+
 	/** The green. */
 	private String green;
-	
+
 	/** The blue. */
 	private String blue;
+
+	/** The timestamp. */
+	private Long timestamp = System.currentTimeMillis();
 
 	/**
 	 * Gets the red.
@@ -66,6 +69,24 @@ public class Values {
 	 */
 	public void setBlue(String blue) {
 		this.blue = blue;
+	}
+
+	/**
+	 * Gets the timestamp.
+	 *
+	 * @return the timestamp
+	 */
+	public Long getTimestamp() {
+		return timestamp;
+	}
+
+	/**
+	 * Sets the timestamp.
+	 *
+	 * @param timestamp the new timestamp
+	 */
+	public void setTimestamp(Long timestamp) {
+		this.timestamp = timestamp;
 	}
 
 }
