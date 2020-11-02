@@ -1,0 +1,10 @@
+[Unit]
+Description=SoftLightFarEdge
+
+[Service]
+TimeoutStartSec=0
+User=softlight
+ExecStart=/usr/bin/java -jar /home/softlight/softlight-0.0.1-SNAPSHOT.jar
+
+[Install]
+WantedBy=multi-user.target	

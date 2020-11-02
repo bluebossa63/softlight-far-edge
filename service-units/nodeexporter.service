@@ -1,0 +1,11 @@
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=NodeExporter
+
+[Service]
+TimeoutStartSec=0
+ExecStart=/usr/local/bin/node_exporter
+
+[Install]
+WantedBy=multi-user.target
