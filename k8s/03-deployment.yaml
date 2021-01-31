@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: softlight-far-edge
-        image: nexus.ne.local:2376/softlight/softlight-far-edge:v1.0.0
+        image: nexus.ne.local:2376/softlight/softlight-far-edge:v1.0.1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
