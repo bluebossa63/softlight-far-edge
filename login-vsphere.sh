@@ -19,4 +19,4 @@ send -- \"$VSPHERE_WITH_TANZU_PASSWORD\r\"
 expect eof
 ")
 
-${KUBECTL_PATH} config use-context ${VSPHERE_WITH_TANZU_NAMESPACE}
+${KUBECTL_PATH} config use-context ${VSPHERE_WITH_TANZU_CLUSTER}
